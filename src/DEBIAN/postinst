@@ -1,0 +1,2 @@
+#!/data/data/com.termux/files/usr/bin/sh
+bash /data/data/com.termux/files/usr/bin/metasploit-installer.sh

@@ -1,0 +1,23 @@
+#!/data/data/com.termux/files/usr/bin/bash
+WIKI_URL="https://wiki.termux.com/wiki/FAQ#Where_are_Metasploit_and_Hydra_packages"
+spinstep(){ sleep 1 && echo -ne "\e[1D"; }
+echo -n "[*] Starting Metasploit Framework Console..... "
+for i in {1..5}
+do
+	echo -n "|"
+	spinstep
+	echo -n "/"
+	spinstep
+	echo -n "-"
+	spinstep
+	echo -n "\\"
+	spinstep
+done
+printf "\n"
+termux-open "https://youtube.com/watch?v=dQw4w9WgXcQ"
+echo "[*] You have been rickrolled!"
+echo "[*] Please read $WIKI_URL"
+echo "[*] Press any key to open..."
+read -n 1 -sr "_"
+termux-open "$WIKI_URL"
+
