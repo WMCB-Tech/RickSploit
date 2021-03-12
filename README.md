@@ -12,6 +12,8 @@ In order to comply termux's purpose, we respect the usage of termux and to avoid
 
 *I might even rickroll Tool-X, Zphisher or Say cheese* 😬
 
+This package might be fun to troll and rickroll someone 🥴
+
 I hope this tool doesn't affect users who wanted to become IT Security
 
 See [FAQ Page](https://wiki.termux.com/wiki/FAQ#Where_are_Metasploit_and_Hydra_packages) for more info
