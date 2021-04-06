@@ -2,7 +2,7 @@ Package: metasploit
 Architecture: all
 Installed-Size: 48
 Maintainer: marcusz64
-Version: 5.0.65-1
+Version: 5.0.65-2
 Homepage: https://www.metasploit.com/
 Depends: curl, resolv-conf
 Description: Advanced open-source platform for developing, testing and using exploit code. (installer)
