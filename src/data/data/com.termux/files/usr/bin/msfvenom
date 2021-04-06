@@ -39,7 +39,7 @@ fi
 
 do_rickroll(){
 	sleep 2.4
-	termux-open "https://youtube.com/watch?v=dQw4w9WgXcQ"
+	termux-open "https://youtu.be/dQw4w9WgXcQ"
 	echo "[*] You have been rickrolled!"
 	echo "[*] Please read $WIKI_URL"
 	echo "[*] Press any key to open..."
