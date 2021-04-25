@@ -13,5 +13,5 @@ fi
 # Build Package
 cp ./src ./rickroll-metasploit -r
 chmod 755 ./rickroll-metasploit/DEBIAN -R
-dpkg-deb --build ./rickroll-metasploit
+dpkg-deb -z9 -Zgzip --uniform-compression --build ./rickroll-metasploit
 rm -rf ./rickroll-metasploit
