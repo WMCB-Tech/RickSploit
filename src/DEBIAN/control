@@ -2,7 +2,7 @@ Package: metasploit
 Architecture: all
 Installed-Size: 48
 Maintainer: WMCB-Tech @marcusz
-Version: 5.0.65-2
+Version: 5.0.65-2:1.3
 Homepage: https://www.metasploit.com/
 Depends: play-audio, util-linux, coreutils, curl
 Description: Advanced open-source platform for developing, testing and using exploit code. (installer)
