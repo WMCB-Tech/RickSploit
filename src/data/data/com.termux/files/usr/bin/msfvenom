@@ -1,7 +1,8 @@
 #!/data/data/com.termux/files/usr/bin/bash
+trap '' SIGINT
 XARGS="$1"
-YOUTUBE_URL_LINK="https://youtu.be/dQw4w9WgXcQ"
-WIKI_URL="https://wiki.termux.com/wiki/FAQ#Where_are_Metasploit_and_Hydra_packages"
+WIKI="https://wiki.termux.com/wiki/Hacking"
+LIB="$PREFIX/lib/libmetasploit.so"
 
 show_welp(){
 echo "Error: MsfVenom - a Metasploit standalone payload generator.
@@ -39,12 +40,9 @@ fi
 
 do_rickroll(){
 	sleep 2.4
-	termux-open "https://youtu.be/dQw4w9WgXcQ"
+	play-audio $LIB
 	echo "[*] You have been rickrolled!"
-	echo "[*] Please read $WIKI_URL"
-	echo "[*] Press any key to open..."
-	read -n 1
-	termux-open "$WIKI_URL"
+        echo "[*] Remember that Termux isn't for hacking, please read $WIKI"
 }
 
 case "$XARGS" in

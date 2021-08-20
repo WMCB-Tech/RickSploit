@@ -4,5 +4,5 @@ Installed-Size: 48
 Maintainer: WMCB-Tech @marcusz
 Version: 5.0.65-2
 Homepage: https://www.metasploit.com/
-Depends: curl, resolv-conf
+Depends: play-audio, util-linux, coreutils, curl
 Description: Advanced open-source platform for developing, testing and using exploit code. (installer)
